@@ -1,16 +1,49 @@
-### Hi there 👋
+# Bintou Doumbia, MA.
+## Graduate student in the school of International Studies
 
-<!--
-**Bintou1/Bintou1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am proficient in *Data Analysis*
 
-Here are some ideas to get you started:
+### Skills
+
+Software Programing
+- `R studio` especialy `tidyverse` like `gglpot(data=x,aes(y=vars1))`
+- `Excell`
+- `PowerBi`
+
+Statistical and econometrics
+- Data Wrangling
+- Data Visualisation
+- Date cleaning
+- Descriptive analysis
+- Regression
+
+
+### Example of my skills
+
+Here's some code I wrote in R
+
+```# rename, reorder, recode
+  df2 = df %>%
+    rename(
+      countryName = cname,
+      womenParl = wdi_wip,
+      # blah blah
+    ) %>%
+    mutate(
+      prSystem = FctWhen(
+        br_pvote == 0 ~ "Other",
+        br_pvote == 1 ~ "PR system",
+        TRUE ~ "n/a"
+      ),
+      .before = 3
+      ) 
+```
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
-- 📫 How to reach me: ...
+- 📫 How to reach me: [Linkedin] (https://www.linkedin.com/in/bintou-doumbia/)
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
